@@ -1,0 +1,4 @@
+ALTER TABLE
+    article
+ADD
+    COLUMN "is_published" BOOLEAN NOT NULL DEFAULT FALSE;
